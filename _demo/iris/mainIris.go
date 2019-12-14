@@ -22,5 +22,5 @@ func main() {
 		ctx.View("hello.html")
 	})
 
-	app.Run(iris.Addr(":8080"), iris.WithCharset("UTF-8"))
+	app.Run(iris.Addr(":8080"))
 }
